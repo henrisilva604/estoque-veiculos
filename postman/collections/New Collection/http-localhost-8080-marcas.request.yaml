@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:8080/marcas
+description: ""
+url: http://localhost:8080/marcas
+method: POST
+body:
+  type: json
+  content: '{"nome": "Fiat"}'
+order: 1000
